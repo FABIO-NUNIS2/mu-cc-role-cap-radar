@@ -133,14 +133,14 @@
         });
 
         // Init DataTable
-        capTable = $('#cc-cap-table').DataTable({
+        capTable = new DataTable('#cc-cap-table', {
             paging: true,
             searching: true,
             info: true,
             pageLength: 25,
             lengthMenu: [10, 25, 50, 100],
             order: [[0, 'asc']],
-            autoWidth: false,
+            //autoWidth: false,
             language: {
                 search: 'Filtra:',
                 lengthMenu: 'Mostra _MENU_',
@@ -155,9 +155,18 @@
         });
     }
 
-    $('#cc-role-select')
-        .on('change', function () {
-            render(this.value);
-        })
-        .trigger('change');
+    $(function () {
+        const $roleSelect = $('#cc-role-select');
+
+        $roleSelect
+            .on('change', function () {
+                render(this.value);
+            })
+            .trigger('change');
+
+        // trigger ritardato e sicuro
+        if ($roleSelect.length) {
+            render($roleSelect.val());
+        }
+    });
 })(jQuery);

@@ -232,3 +232,77 @@
 .cc-radar-body {
     padding: 12px;
 }
+
+/* ==========================================================
+ * DataTables Fixes 
+ * ========================================================== */
+
+/**
+ * Sistema “Mostra N” (length)
+ */
+#cc-role-cap-radar-overlay .dataTables_length {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#cc-role-cap-radar-overlay .dataTables_length select {
+    min-height: 32px;
+    min-width: 52px;
+    width: auto;
+    padding: 2px 6px;
+    line-height: 1.4;
+    border-radius: 4px;
+}
+/**
+ * Sistema la pagination
+ */
+#cc-role-cap-radar-overlay .dataTables_paginate {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 4px;
+    margin-top: 10px;
+}
+
+#cc-role-cap-radar-overlay .dataTables_paginate .paginate_button {
+    padding: 0px 8px;
+    border-radius: 4px;
+    border: 1px solid #ccd0d4;
+    background: #fff;
+    cursor: pointer;
+}
+#cc-role-cap-radar-overlay .dataTables_paginate .paginate_button.current {
+    background: #2271b1;
+    color: #fff !important;
+    border-color: #2271b1;
+}
+#cc-role-cap-radar-overlay .dataTables_paginate .paginate_button:hover {
+    background: #fff !important;
+    color: #134772 !important;
+    border-color: #134772 !important;
+}
+
+/**
+ *  Evita overflow nel modal
+ */
+#cc-role-cap-radar-overlay .dataTables_wrapper {
+    overflow-x: auto;
+}
+
+/**
+ * Allinea info (“Mostrati 1–25 di X”)
+ */
+#cc-role-cap-radar-overlay .dataTables_info {
+    margin-top: 8px;
+    color: #50575e;
+    font-size: 12px;
+}
+/**
+ * look perfettamente WP-admin-native
+ */
+#cc-role-cap-radar-overlay select,
+#cc-role-cap-radar-overlay input {
+    font-size: 13px;
+    font-family: inherit;
+}

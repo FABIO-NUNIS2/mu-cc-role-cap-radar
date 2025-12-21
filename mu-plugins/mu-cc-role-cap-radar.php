@@ -4,7 +4,7 @@
  * Description: Backend floating radar per visualizzare tutte le capability
  *              disponibili nel sistema e il match con l’utente loggato.
  * Author: CodeCorn
- * Version: 1.0.15
+ * Version: 1.0.16
  */
 
 defined('ABSPATH') || exit; // Exit if accessed directly
